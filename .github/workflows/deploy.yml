@@ -18,11 +18,10 @@ jobs:
           node-version: 12
 
       - name: Installing all Dependencies
-      - run: yarn upgrade    
+        run: yarn upgrade    
         
       - name: Building the site
-        run: |
-          yarn build
+        run: yarn build
         env: 
           REACT_APP_NODE: ${{ secrets.REACT_APP_NODE }}
       
