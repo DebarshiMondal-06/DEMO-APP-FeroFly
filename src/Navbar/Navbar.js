@@ -8,7 +8,7 @@ const Navbar = () => {
   return <section className='nav-section'>
     <nav className='nav-container'>
       <ul className='nav-list'>
-        {itemsFun('Home')}
+        {itemsFun('Home Menu')}
         {itemsFun('About')}
         {itemsFun('Rooms')}
         {itemsFun('Service')}
