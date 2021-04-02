@@ -9,11 +9,11 @@ const Navbar = () => {
     <nav className='nav-container'>
       <ul className='nav-list'>
         {itemsFun('Home Menu')}
-        {itemsFun('About')}
-        {itemsFun('Rooms')}
-        {itemsFun('Service')}
+        {itemsFun('About Us')}
+        {itemsFun('Rooms For Me')}
+        {itemsFun('Our Service')}
         {itemsFun('Gallery')}
-        {itemsFun('Contact')}
+        {itemsFun('Contact Us')}
         <li><button className='btn'>Book a Room</button></li>
       </ul>
     </nav>
