@@ -16,10 +16,12 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+
+      - name: Installing all Dependencies
+      - run: yarn upgrade    
         
       - name: Building the site
         run: |
-          yarn install
           yarn build
         env: 
           REACT_APP_NODE: ${{ secrets.REACT_APP_NODE }}
